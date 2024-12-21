@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 41rem;
+  height: 50rem;
+  margin-top: 15rem;
+}
+
+.color_1, .color_2, .color_3, .color_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 19rem;
+  height: 19rem;
+  border: 1rem solid black;
+}
+
+.reset_button {
+  width: 10rem;
+  height: 5rem;
+  background: white;
+  border: black solid 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
